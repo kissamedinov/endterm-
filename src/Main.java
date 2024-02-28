@@ -45,7 +45,7 @@ class SimpleMatchStatisticsCalculator implements MatchStatisticsCalculator {
         List<Player> homePlayers = ((Team) match.getHomeTeam()).getPlayers();
         List<Player> awayPlayers = ((Team) match.getAwayTeam()).getPlayers();
 
-        int homeGoals = (int) (Math.random() * homePlayers.size()); // Simulating random goals
+        int homeGoals = (int) (Math.random() * homePlayers.size()); 
         int awayGoals = (int) (Math.random() * awayPlayers.size());
 
         System.out.println("Match statistics:");
